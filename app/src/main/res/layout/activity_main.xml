@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+   <io.github.sceneview.ar.ArSceneView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+      android:id="@+id/sceneView"/>
+   <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+       android:layout_width="wrap_content"
+       android:id="@+id/extendedButton"
+       android:layout_centerInParent="true"
+       android:text="place"
+       android:textAlignment="center"
+       android:layout_margin="25dp"
+       android:layout_alignParentBottom="true"
+       android:layout_height="wrap_content"/>
+
+</RelativeLayout>
