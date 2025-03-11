@@ -49,7 +49,7 @@ class MainActivity : AppCompatActivity() {
 
     }
     private fun placeModel () {
-        modelNode?.anchor()
+        modelNode.anchor()
         sceneView.planeRenderer.isVisible = false
     }
 }
